@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chinnam Chaithanya — Business Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="wrap">
+    <button class="logo" data-page="home">Chinnam Chaithanya</button>
+    <div class="navlinks">
+      <button class="nav-btn" data-page="summary">Summary</button>
+      <button class="nav-btn" data-page="skills">Skills</button>
+      <button class="nav-btn" data-page="experience">Experience</button>
+      <button class="nav-btn" data-page="projects">Projects</button>
+      <button class="nav-btn" data-page="education">Education</button>
+      <button class="nav-btn" data-page="certs">Certs</button>
+    </div>
+    <button class="nav-cta" data-page="contact">Contact</button>
+  </div>
+</div>
+
+<div class="page-dots">
+  <button class="dot" data-page="home"></button>
+  <button class="dot" data-page="summary"></button>
+  <button class="dot" data-page="skills"></button>
+  <button class="dot" data-page="experience"></button>
+  <button class="dot" data-page="projects"></button>
+  <button class="dot" data-page="education"></button>
+  <button class="dot" data-page="certs"></button>
+  <button class="dot" data-page="contact"></button>
+</div>
+
+<!-- HOME -->
+<section class="page active" id="page-home">
+  <div class="wrap">
+    <div class="fade-in">
+      <div class="hero-eyebrow">Business Analyst — Entry Level</div>
+      <h1 class="hero">Turning business data into clear, actionable decisions.</h1>
+      <p class="lede">B.Tech Computer Science graduate skilled in Power BI, Excel, and SQL — with a foundation in requirements gathering and stakeholder communication.</p>
+      <div class="hero-actions">
+        <button class="btn btn-solid" data-page="projects">View Projects</button>
+        <button class="btn btn-outline" data-page="contact">Get In Touch</button>
+      </div>
+    </div>
+    <div class="hero-visual fade-in"><canvas id="canvas-home-box"></canvas></div>
+  </div>
+</section>
+
+<!-- SUMMARY -->
+<section class="page" id="page-summary">
+  <canvas class="page-canvas" id="canvas-summary"></canvas>
+  <div class="wrap">
+    <div class="fade-in">
+      <div class="page-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#3454d1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="8" r="3.5"></circle>
+          <path d="M4.5 20c1-3.5 4-5.5 7.5-5.5s6.5 2 7.5 5.5"></path>
+          <path d="M9 9.5l1.6 1.6L15 7"></path>
+        </svg>
+      </div>
+      <div class="eyebrow">Summary</div>
+      <h2 class="section-title">About me</h2>
+      <div class="summary-card">
+        <p><strong>Detail-oriented B.Tech Computer Science graduate</strong> with a strong foundation in data analysis, databases, and business intelligence tools (Power BI, Excel, SQL). Skilled in translating business data into actionable insights through dashboards and reports.</p>
+        <p>Seeking an entry-level <strong>Business Analyst</strong> role to apply analytical thinking, requirements documentation, and stakeholder communication skills to support data-driven decision-making.</p>
+      </div>
+      <div class="stat-grid">
+        <div class="stat-tile"><div class="num">7.15</div><div class="lbl">CGPA, B.Tech CSE</div></div>
+        <div class="stat-tile"><div class="num">3</div><div class="lbl">Certifications earned</div></div>
+        <div class="stat-tile"><div class="num">3</div><div class="lbl">Business &amp; data projects</div></div>
+        <div class="stat-tile"><div class="num">3</div><div class="lbl">Months of internship</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="page" id="page-skills">
+  <canvas class="page-canvas" id="canvas-skills"></canvas>
+  <div class="wrap">
+    <div class="fade-in">
+      <div class="page-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#0e9488" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3.5" y="13" width="4" height="7" rx="1"></rect>
+          <rect x="10" y="8" width="4" height="12" rx="1"></rect>
+          <rect x="16.5" y="4" width="4" height="16" rx="1"></rect>
+        </svg>
+      </div>
+      <div class="eyebrow">Skills</div>
+      <h2 class="section-title">What I bring to the table</h2>
+      <p class="section-sub">Business analysis fundamentals, backed by hands-on technical and tool skills.</p>
+      <div class="skill-cat-grid">
+        <div class="skill-cat"><h4>Business &amp; Analytical</h4><p>Requirements gathering, data analysis, dashboard reporting, process documentation, stakeholder communication</p></div>
+        <div class="skill-cat"><h4>Technical</h4><p>SQL, Power BI, Excel (Advanced), C, Python, HTML, CSS</p></div>
+        <div class="skill-cat"><h4>Tools</h4><p>Visual Studio, Microsoft Excel, Power BI, PowerPoint, Word</p></div>
+        <div class="skill-cat"><h4>Soft Skills</h4><p>Problem-solving, collaboration, communication, attention to detail</p></div>
+      </div>
+      <div class="pill-row">
+        <span class="pill">Requirements Gathering</span>
+        <span class="pill">Power BI</span>
+        <span class="pill">Excel (Advanced)</span>
+        <span class="pill">SQL</span>
+        <span class="pill">Stakeholder Communication</span>
+        <span class="pill">Process Documentation</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="page" id="page-experience">
+  <canvas class="page-canvas" id="canvas-experience"></canvas>
+  <div class="wrap">
+    <div class="fade-in">
+      <div class="page-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#3454d1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="7.5" width="18" height="12" rx="2"></rect>
+          <path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"></path>
+          <path d="M3 12.5h18"></path>
+        </svg>
+      </div>
+      <div class="eyebrow">Experience</div>
+      <h2 class="section-title">Software Engineer Intern</h2>
+      <p class="section-sub">3-month internship, March – May 2026.</p>
+      <div class="exp-card">
+        <div class="exp-top">
+          <h3>Software Engineer Intern</h3>
+          <div class="exp-period">March 2026 – May 2026</div>
+        </div>
+        <ul>
+          <li>Contributed to development and maintenance of web applications, supporting backend systems, API integrations, and database optimizations.</li>
+          <li>Collaborated with cross-functional teams to identify, debug, and resolve software issues, improving application reliability and performance.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="page" id="page-projects">
+  <canvas class="page-canvas" id="canvas-projects"></canvas>
+  <div class="wrap">
+    <div class="fade-in">
+      <div class="page-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#0e9488" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3.5" width="18" height="17" rx="2"></rect>
+          <path d="M7.5 15v-4"></path>
+          <path d="M12 15V8"></path>
+          <path d="M16.5 15v-2.5"></path>
+        </svg>
+      </div>
+      <div class="eyebrow">Projects</div>
+      <h2 class="section-title">Applied business &amp; data analysis work</h2>
+      <p class="section-sub">A featured dashboard project from my internship, plus independent business analysis projects.</p>
+      <div class="project-panel">
+        <h3>Financial Report Dashboard</h3>
+        <div class="project-meta">Internship project · Power BI · Excel</div>
+        <p class="project-desc">Built financial reports and interactive dashboards using Power BI and Excel to track revenue, expenses, budgets, and key performance indicators. Cleaned, analyzed, and visualized financial data to deliver accurate insights and support data-driven business decisions.</p>
+      </div>
+      <div class="num-grid">
+        <div class="num-card">
+          <div class="num-badge">01</div>
+          <h3>E-Commerce Returns &amp; Refunds Analysis</h3>
+          <div class="project-meta">Excel · Process Flow Diagrams</div>
+          <p class="project-desc">Studied return data to find the product categories with the highest return rates, mapped the current return process to spot delays and bottlenecks, and recommended process changes to reduce returns and improve efficiency.</p>
+        </div>
+        <div class="num-card">
+          <div class="num-badge">02</div>
+          <h3>Bank Term-Deposit Marketing Campaign Analysis</h3>
+          <div class="project-meta">Excel · Power BI</div>
+          <p class="project-desc">Analyzed past campaign calls to find what led to successful conversions, segmented customers by conversion likelihood to target the right audience, and built a dashboard summarizing key insights for the marketing team.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="page" id="page-education">
+  <canvas class="page-canvas" id="canvas-education"></canvas>
+  <div class="wrap">
+    <div class="fade-in">
+      <div class="page-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#3454d1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 8.5L12 4l10 4.5-10 4.5-10-4.5z"></path>
+          <path d="M6 10.6v4.4c0 1.8 2.7 3.2 6 3.2s6-1.4 6-3.2v-4.4"></path>
+          <path d="M22 8.5v6"></path>
+        </svg>
+      </div>
+      <div class="eyebrow">Education</div>
+      <h2 class="section-title">2020 – 2026</h2>
+      <div class="edu-list" style="margin-top:28px;">
+        <div class="edu-item">
+          <div><h3>B.Tech, Computer Science Engineering</h3><div class="place">MVR College of Engineering and Technology, Paritala</div></div>
+          <div style="display:flex;gap:20px;align-items:baseline;"><div class="years">2022 – 2026</div><div class="grade">7.15 CGPA</div></div>
+        </div>
+        <div class="edu-item">
+          <div><h3>Intermediate</h3><div class="place">Royal Junior College, Addanki</div></div>
+          <div style="display:flex;gap:20px;align-items:baseline;"><div class="years">2020 – 2022</div><div class="grade">63%</div></div>
+        </div>
+        <div class="edu-item">
+          <div><h3>Secondary Education</h3><div class="place">Sri Nagarjuna High School</div></div>
+          <div style="display:flex;gap:20px;align-items:baseline;"><div class="years">2020</div><div class="grade">92%</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTS -->
+<section class="page" id="page-certs">
+  <canvas class="page-canvas" id="canvas-certs"></canvas>
+  <div class="wrap">
+    <div class="fade-in">
+      <div class="page-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#0e9488" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="9" r="5.5"></circle>
+          <path d="M9 13.5L7.5 21l4.5-2.5L16.5 21 15 13.5"></path>
+        </svg>
+      </div>
+      <div class="eyebrow">Certifications &amp; Workshops</div>
+      <h2 class="section-title">Learning outside the classroom</h2>
+      <div class="cert-grid" style="margin-top:28px;">
+        <div class="cert-box">
+          <h4>Certifications</h4>
+          <ul><li>Power BI</li><li>Data Science</li><li>AI &amp; ML (participation)</li></ul>
+        </div>
+        <div class="cert-box">
+          <h4>Workshops</h4>
+          <ul><li>AI tools, in collaboration with be10x</li><li>Power BI workshop</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="page" id="page-contact">
+  <canvas class="page-canvas" id="canvas-contact"></canvas>
+  <div class="wrap">
+    <div class="fade-in">
+      <div class="page-icon" style="margin-left:auto;margin-right:auto;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#3454d1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="5.5" width="18" height="13" rx="2"></rect>
+          <path d="M3.5 6.5L12 13l8.5-6.5"></path>
+        </svg>
+      </div>
+      <div class="eyebrow">Let's Connect</div>
+      <h2 class="section-title">Open to entry-level Business Analyst roles</h2>
+      <div class="contact-info">
+        <div><div class="ci-lbl">Location</div>Addanki, Andhra Pradesh</div>
+        <div><div class="ci-lbl">Phone</div><a href="tel:8074723431" style="text-decoration:none;">8074723431</a></div>
+        <div>
+          <div class="ci-lbl">Email</div>
+          <a href="mailto:chchaitu0505@gmail.com" style="text-decoration:none;">chchaitu0505@gmail.com</a>
+          <button id="copyEmailBtn" type="button" style="margin-left:8px;border:1px solid var(--line);background:var(--panel);color:var(--text-dim);font-size:11px;padding:3px 9px;border-radius:999px;cursor:pointer;vertical-align:middle;">Copy</button>
+        </div>
+      </div>
+
+      <div class="resume-card">
+        <div class="ci-lbl">Upload your resume</div>
+
+        <div id="resumeDrop" class="dropzone" tabindex="0" role="button" aria-label="Upload resume">
+          <div class="drop-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#3454d1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 16V5"></path>
+              <path d="M7.5 9.5L12 5l4.5 4.5"></path>
+              <path d="M4.5 15v3a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-3"></path>
+            </svg>
+          </div>
+          <div class="drop-title">Drag &amp; drop your resume here</div>
+          <div class="drop-sub">or <span class="drop-browse">browse files</span></div>
+          <div class="drop-hint">PDF, DOC or DOCX &middot; up to 10 MB</div>
+        </div>
+
+        <div id="resumeFile" class="file-row" hidden>
+          <div class="resume-file-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#3454d1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path>
+              <path d="M14 3v5h5"></path>
+              <path d="M9 13h6M9 17h4"></path>
+            </svg>
+          </div>
+          <div class="file-main">
+            <div class="file-top">
+              <span id="resumeName" class="resume-name"></span>
+              <span id="resumeStatus" class="file-status"></span>
+            </div>
+            <div id="resumeMeta" class="resume-meta"></div>
+            <div class="progress"><div id="resumeBar" class="progress-bar"></div></div>
+          </div>
+          <a id="resumeDownload" class="file-link" href="#">Download</a>
+          <button id="resumeRemove" class="file-remove" type="button" aria-label="Remove resume" title="Remove">&times;</button>
+        </div>
+
+        <input type="file" id="resumeInput" accept=".pdf,.doc,.docx" hidden>
+        <div id="resumeMsg" class="resume-msg" role="status" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
